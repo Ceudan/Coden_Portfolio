@@ -5,7 +5,7 @@
 
 Led a team of 4 to design a multi-staged software that decodes alphanumeric CAPTCHA images. Motivation was a course final project. Input consists 5 character CAPTCHAs disguised with various levels of rotational, distance, colour and overlapping distortions along with image noise. Output is a 5 character prediction of the sequence.
 ![Image of a CAPTCHA and the software's predicted output](images/example.png) 
-
+\
 The program consists of 3 main steps: preprocessing using computer vision libraries to eliminate noise, character segmentation using object recognition to localize individual characters, and character classification using a convolutional neural network followed by several fully connected layers. We succesfully achieved an accuracy of 71% per entire CAPTCHA image and 91% per individual character. These accuracies are high given that CAPTCHAs are designed not to be bypassed by computer software. 
 &nbsp;
 
