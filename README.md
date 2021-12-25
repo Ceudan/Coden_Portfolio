@@ -17,7 +17,7 @@ Problem: At the University of Toronto Transportation Research Institute, we ofte
 - alphanumerical naming was inconsistent between databases
 - geographic coordinates carried up to 10 metres of uncertainty
 
-Solution: I designed an algorithm to match roads based mainly on geographic information. My algorithm was able to filter out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. Final time to doubly match both databases was 8 minutes.
+Solution: I designed an algorithm to match roads based on geographic and connected node information. My algorithm was able to filter out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. Final time to doubly match both databases was 8 minutes.
 \
 \
 Skills Learned: GeoPandas, GIS, shapefiles, matrix/array operation time dependancies
