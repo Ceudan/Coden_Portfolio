@@ -12,7 +12,10 @@ The program consists of 3 main steps: preprocessing using computer vision librar
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
 # Project 2: Matching Road Sections between Databases
-
+Problem: At the University of Toronto Transportation Research Institute, we often have different data sources describing the same roads. My supervisor had an Aimsun traffic model describing the GTHA, and traffic information from HERE maps. My task was to write an automated program to figure out which road sections in Aimsun, corresponded to which roads in HERE's database. Some of the major hurdles included:
+- over 100,000 road sections per database (strong time complexity requirements)
+- alphanumerical naming was inconsistent between databases
+- geographic coordinates carried up to 10m of uncertainty
 
 # Markdown 
 
