@@ -18,7 +18,10 @@ Problem: At the University of Toronto Transportation Research Institute, we ofte
 - geographic coordinates carried up to 10m of uncertainty
 \
 
-Solution: I designed an algorithm to match roads based mainly on geographic information. My algorithm was able to filter out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. Final time to doubly match both databases was 8 minutes.  
+Solution: I designed an algorithm to match roads based mainly on geographic information. My algorithm was able to filter out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. Final time to doubly match both databases was 8 minutes.
+\
+\
+Skills Learned: geopandas, GIS, shapefiles, matrix operation time complexities
 
 # Markdown 
 
