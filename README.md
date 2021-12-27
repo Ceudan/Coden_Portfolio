@@ -20,7 +20,7 @@ Problem: At the University of Toronto Transportation Research Institute, we ofte
 Solution: I independantly designed an algorithm to match roads based on geographic and connected node information. It filtered out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. I made the program generalizable so it could be reapplied to different data sources. Final time to doubly match both databases was 8 minutes.
 \
 \
-Skills Learned: GeoPandas, GIS, shapefiles, matrix/array operation time dependancies
+Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operation time dependancies
 
 # Markdown 
 
