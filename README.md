@@ -17,7 +17,7 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 Problem: At the University of Toronto Transportation Research Institute, we often have different data sources describing the same roads. My task was to write an automated program to figure out which road sections in Aimsun's traffic model, corresponded to sections in HERE's traffic count database. Hurdles include:
 - over 100,000 road sections per database (strong time complexity requirements)
 - close proximity does not gaurentee correct match
-- geographic coordinates carried up to 10 metres of uncertainty
+- geographic coordinates carry up to 10 metres of uncertainty
 
 
 
