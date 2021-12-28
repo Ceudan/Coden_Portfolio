@@ -12,6 +12,8 @@ The program consists of 3 main steps: preprocessing using computer vision librar
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
 # Project 2: Matching Road Sections between Databases
+[Full Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
+
 Problem: At the University of Toronto Transportation Research Institute, we often have different data sources describing the same roads. My task was to write an automated program to figure out which road sections in Aimsun's traffic model, corresponded to sections in HERE's traffic count database. Major hurdles included:
 - over 100,000 road sections per database (strong time complexity requirements)
 - alphanumerical naming was inconsistent between databases
