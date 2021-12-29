@@ -14,7 +14,7 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 # Project 2: Matching Road Sections between Databases
 [Full Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
-Problem: At the University of Toronto Transportation Research Institute, we often have different data sources describing the same roadways. My task was to write an automated program to figure out which road sections in Aimsun's traffic simulation, corresponded HERE's traffic count database and vice versa. Hurdles include:
+I independantly wrote a program that figures out which road sections in database 1, corresponds to those in database 2 using geospatial data. This was one of my many tasks at the University of Toronto Transportation Research Institute.  Hurdles include:
 - over 100,000 road sections per database (strong time complexity requirements)
 - close proximity does not gaurentee correct match
 - geographic coordinates carry up to 10 metres of uncertainty
