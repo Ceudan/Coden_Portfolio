@@ -14,7 +14,7 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 # Project 2: Matching Road Sections between Databases
 [Full Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
-I independantly wrote a program that figures out which road sections in database 1, corresponds to those in database 2 using geospatial data. This was one of my many tasks at the University of Toronto Transportation Research Institute.  Hurdles include:
+Problem: At the University of Toronto Transportation Research Institute, we often have different data sources describing the same roads. My task was to write an automated program to figure out which road sections in Aimsun's traffic model, corresponded to sections in HERE's traffic count database. Hurdles include:
 - over 100,000 road sections per database (strong time complexity requirements)
 - close proximity does not gaurentee correct match
 - geographic coordinates carry up to 10 metres of uncertainty
@@ -24,7 +24,7 @@ I independantly wrote a program that figures out which road sections in database
 ![Visualization of road sections in Database 1](images/ex1_HERE.png) ![Visualization of road sections in Database 2](images/ex1_aimsun.png) ![Visualization of road sections in Database 2](images/ex1_match_background.png) 
 
 
-Solution: I independantly designed an algorithm to match roads based on geographic and connected node information. It filtered out sections that overlapped but were not part of the same roadway, as well as sections that were part of the same roadway but ran opposite directions. I made the program generalizable so it could be reapplied to different data sources. Final time to doubly match both databases was 8 minutes.
+Achieved an accuracy of 85% per query road,and 94% when excluding freeways and abnormally short sections. It was succesfully used to match sections from the Aimsun traffic simulation covering the GTHA, with HERE technology observed traffic flow information.
 \
 \
 Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operation time dependancies
