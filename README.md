@@ -24,7 +24,7 @@ Problem: At the University of Toronto Transportation Research Institute, we ofte
 ![Visualization of road sections in Database 1](images/ex1_HERE.png) ![Visualization of road sections in Database 2](images/ex1_aimsun.png) ![Visualization of road sections in Database 2](images/ex1_match_background.png) 
 
 
-Achieved an accuracy of 85% per query road, and 94% when excluding freeways and abnormally short sections. It was succesfully used to match sections from an Aimsun traffic simulation covering the GTHA, with HERE technology observed traffic flow information.
+Achieved an accuracy of 85% per query road, and 94% when excluding freeways and abnormally short sections. It was succesfully used to match sections from an Aimsun traffic simulation covering the GTHA, with HERE technology observed traffic information.
 \
 \
 Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operation time dependancies
