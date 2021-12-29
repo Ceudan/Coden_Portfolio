@@ -27,7 +27,7 @@ I independantly wrote a program to figure out which road sections in database 1 
 Achieved an accuracy of 94% when excluding abnormally sections. Accuracy is highly dynamic since adjustable thresholds can tradeoff quantity with quality. It was succesfully used to match sections from an Aimsun traffic simulation covering the GTHA, with HERE Technologies' observed traffic information.
 \
 \
-Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operation time dependancies
+Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operational time dependancies
 
 # Markdown 
 
