@@ -14,7 +14,7 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 # Project 2: Matching Road Sections between Databases
 [Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
-I independantly created a program without guidance to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
+I independantly created a program to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
 - over 100,000 road sections per database (strong time complexity requirements)
 - close proximity does not gaurentee correct match
 - geographic coordinates carry up to 10 metres of uncertainty
