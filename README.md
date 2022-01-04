@@ -1,6 +1,6 @@
 &nbsp;
 # Project 1: Alphanumeric CAPTCHA Solver
-[Full Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
+[Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
  [Video Link](https://drive.google.com/file/d/1td802b0Awh8pfEoDKK6pBHAdh1UC6BsB/view?usp=sharing)
 
 Led a team of 4 to independantly design from scratch a multi-staged software that decodes alphanumeric CAPTCHA images. Motivation was a course final project. Input consists 5 character CAPTCHAs disguised with various levels of rotational, distance, colour and overlapping distortions along with image noise. Output is a 5 character prediction of the sequence.
@@ -12,7 +12,7 @@ The program consists of 3 main steps: preprocessing using computer vision librar
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
 # Project 2: Matching Road Sections between Databases
-[Full Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
+[Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
 I independantly created a program to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
 - over 100,000 road sections per database (strong time complexity requirements)
