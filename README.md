@@ -23,6 +23,12 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 # Project 2: Predicting Student Question Performance
 I led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
 
+Given Data
+
+![Diagram of given data](images/sparse_matrix.png)
+
+Model Architecture
+
 ![Image of bagging and model architecture](images/Architecture.png)
 
 We ranked 18th in a coursewide competition (over 300 eligible competitors) with an accuracy was 70.3%. After minor improvements, our accuracy incresed to 71.3%, which would have ranked us 5th place.
