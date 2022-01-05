@@ -1,3 +1,8 @@
 title: Coden's Portfolio
 description: Here are some of the larger projects I've worked on.
 theme: jekyll-theme-slate
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: images/featured.png
