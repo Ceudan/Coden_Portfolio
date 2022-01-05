@@ -21,6 +21,8 @@ We succesfully achieved an accuracy of 71% per entire CAPTCHA image and 91% per 
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
 # Project 2: Predicting Student Question Performance
+[Article Link](https://github.com/Ceudan/Predicting-Student-Question-Performance)
+
 I led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
 
 Given Data
