@@ -33,7 +33,7 @@ Model Architecture
 
 ![Image of bagging and model architecture](images/Architecture.png)
 
-We ranked 18th in a coursewide competition (over 300 eligible competitors) with an accuracy was 70.3%. After minor improvements, our accuracy incresed to 71.3%, which would have ranked us 5th place.
+We ranked 18th in a coursewide competition (over 300 eligible competitors) with an accuracy was 70.3%. After minor improvements, our accuracy increased to 71.3%, which would have ranked us 5th place.
 \
 \
 Skills Learned: pytorch, autograd, optimization, bagging, ensemble
