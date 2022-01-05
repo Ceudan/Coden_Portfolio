@@ -15,7 +15,7 @@ Stages:
 \
 &#8291;3. Character classification using a convolutional neural network followed by several fully connected layers.
 
-We succesfully achieved an accuracy of 71% per entire CAPTCHA image and 91% per individual character. These accuracies are high given that CAPTCHAs are designed not to be bypassed by computer software. 
+Achieved mark of 90%. Achieved an accuracy of 71% per entire CAPTCHA image and 91% per individual character. These accuracies are high given that CAPTCHAs are designed not to be bypassed by computer software. 
 \
 \
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
@@ -33,7 +33,7 @@ Model Architecture
 
 ![Image of bagging and model architecture](images/Architecture.png)
 
-We ranked 18th in a coursewide competition (over 300 eligible competitors) with an accuracy was 70.3%. After minor improvements, our accuracy increased to 71.3%, which would have ranked us 5th place.
+Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligible competitors) with an accuracy was 70.3%. After minor improvements, our accuracy increased to 71.3%, which would have ranked us 5th place.
 \
 \
 Skills Learned: pytorch, autograd, optimization, bagging, ensemble
