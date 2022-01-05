@@ -21,8 +21,11 @@ We succesfully achieved an accuracy of 71% per entire CAPTCHA image and 91% per 
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
 # Project 2: Predicting Student Question Performance
+I led a team of 3 to write an ensemble machine learning model with bagging to predict whether a student can correctly anwser a diagnositic question. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
 
+![Image of bagging and model architecture](images/Architecture.png)
 
+We achieved an accuracy of 70.3%. We ranked 18th in a coursewide competition (over 300 students). After implementing some changes, we improved accuracy to 71.3%, which would have achieved 5th place.
 
 # Project 3: Matching Road Sections between Databases
 [Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
