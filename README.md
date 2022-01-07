@@ -53,4 +53,4 @@ I Independantly created a program to match sections across databases using geosp
 Achieved an accuracy of 94% on normal road types. Accuracy is dynamic since adjustable thresholds can tradeoff quantity with quality. It was succesfully used to match sections from an Aimsun traffic simulation covering the GTHA, with HERE Technologies' observed traffic information.
 \
 \
-Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, matrix/array operational time dependancies
+Skills Learned: GeoPandas, GIS, shapefiles, shapely visualizations, search algorithms, matrix/array operational time dependancies
