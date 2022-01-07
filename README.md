@@ -22,7 +22,7 @@ Skills Learned: computer vision libraries, image processing, deep-learning
 # Project 2: Predicting Student Question Performance
 [Article Link](https://github.com/Ceudan/Predicting-Student-Question-Performance)
 
-I led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
+Led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
 
 Given Data
 
