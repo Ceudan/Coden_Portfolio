@@ -44,7 +44,7 @@ Worked in a team of 3 to create an automated sliding puzzle solver using Deep CN
 
 All Deep CNN's achieved an adjacency prediction accuracy of over 90%. Importantly, by testing various pre-trained architectures such as RESNet, RESNext and VGG we were able to deduce useful insights regarding the application of CNN's to these types of image comparisons. Namely, shorter wider CNN's outperform deeper ones. This was due to the models facing significant error when comparing images lacking in large features (ex. subpieces of the sky). Here they had to use localized pixel level details instead. We hypothesiszed this may prove difficult for Deep CNN's were localized information is lost in its deeper layers, especially when tuning models pretrained for object recognition. 
 
-Next Steps: One day I hope to have enough time to return to this project and build the configuration solver using state of the art reinforcement learning.
+Next Steps: One day I hope to have enough time to return to this project and build the configuration solver using reinforcement learning.
 
 
 
