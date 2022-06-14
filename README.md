@@ -1,5 +1,5 @@
 &nbsp;
-# Project 1: Alphanumeric CAPTCHA Solver
+# Project 2: Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
 
 Led a team of 4 to independently design from scratch a multi-staged software that decodes alphanumeric CAPTCHA images. Motivation was a course final project. Input consists of 5 character CAPTCHAs disguised with noise and various levels of overlap, rotational, distance and colour distortions. Output is a 5 character prediction of the sequence.
@@ -19,7 +19,7 @@ Achieved mark of 90%. Achieved an accuracy of 71% per entire CAPTCHA image and 9
 \
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
-# Project 2: Predicting Student Question Performance
+# Project 3: Predicting Student Question Performance
 [Article Link](https://github.com/Ceudan/Predicting-Student-Question-Performance)
 
 Led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
@@ -37,7 +37,18 @@ Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligi
 \
 Skills Learned: pytorch, autograd, optimization, bagging, ensemble
 
-# Project 3: Matching Road Sections between Databases
+# Project 4: Sliding Puzzle Solver
+
+I worked in a team of 3 to create an automated sliding puzzle solver using Deep CNN's and advanced combinatoric algorithms. Pipeline consisted of data engineering raw scenic images into the sliding puzzle structure, fine-tuning pretrained Deep CNN's to predict likelihood of sub-peices being conjoined, and utilising a solving algorithm to rearrangle the subpieces into the estimated most likely original configuration.
+
+
+All Deep CNN's achieved an adjacency prediction accuracy of over 90%. Importantly, by testing various pre-trained architectures such as RESNet, RESNext and VGG we were able to deduce useful insights reagarding the application of Deep CNN's to these types of image matching puzzles. Namely, shorter wider CNN's outperform deeper ones. This was due to the models facing significant erro when comparing images lacking in large features (ex. subpieces of the sky). Here they had to use localized pixel level details instead. This may prove difficult for Deep CNN's were localized information is lost in its deeper layers, especially when these models are already pretrrained for object recognition. 
+
+
+
+
+
+# Project 5: Matching Road Sections between Databases
 [Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
 I independently created software to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
