@@ -39,6 +39,7 @@ Skills Learned: pytorch, autograd, optimization, bagging, ensemble
 
 # Project 4: Sliding Puzzle Solver
 [Article Link](https://github.com/Ceudan/Sliding-Puzzle-Solver/blob/main/README.pdf)
+
 Worked in a team of 3 to create an automated sliding puzzle solver using Deep CNN's and advanced combinatoric algorithms. Pipeline consisted of pre-processing raw scenic images into a sliding puzzle structure, fine-tuning pretrained Deep CNN's to predict the likelihood of sub-peices being conjoined, and utilising a solving algorithm to place the subpieces into the estimated most likely original configuration.
 
 
