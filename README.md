@@ -38,7 +38,7 @@ Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligi
 Skills Learned: pytorch, autograd, optimization, bagging, ensemble
 
 # Project 4: Sliding Puzzle Solver
-[Link to virtual game](https://www.proprofsgames.com/puzzle/sliding/mona-lisaq/)
+[Virtual Game Link](https://www.proprofsgames.com/puzzle/sliding/mona-lisaq/)
 
 There are 2 distinct stages to solving a sliding puzzle. First, the user must estimate the original configuration of the subpieces. Second, you must rearrange the subpieces into the original configuration while obeying the constraints of the game.
 
