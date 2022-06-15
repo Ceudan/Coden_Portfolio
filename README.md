@@ -6,7 +6,7 @@ I hand coded multiple reinforcement learning algorithms for the openai Car Racin
 
 https://user-images.githubusercontent.com/78922263/173864627-4309b90c-84f0-414c-9db1-d3487fed0a82.mp4
 
-I averaged 850/900 of the reward required to officially solve the environment. By modifing the action space, reward, and thus the learnable relationship, I was able to do this at a much smaller computational expense than other top implememntations. 
+I averaged 850/900 of the reward required to officially solve the environment. By shaping the action space, reward, and thus the learnable relationship, I achieved this score at a much smaller computational expense than other top implememntations. 
 
 # Project 2: Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
