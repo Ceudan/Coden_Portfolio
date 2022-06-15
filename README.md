@@ -45,7 +45,7 @@ There are 2 distinct stages to this puzzle. First, you must estimate the origina
 ### Subtask 1: Original Configuration Estimation
 [Article Link](https://github.com/Ceudan/Sliding-Puzzle-Solver/blob/main/README.pdf)
 
-Worked in a team of 3 to estimate original configurations utilizing Deep CNN's and advanced combinatoric algorithms. This subtask is identical to that of solving square jigsaws. Pipeline consisted of pre-processing raw scenic images into the puzzle structure, fine-tuning pretrained Deep CNN's to predict the likelihood of sub-peices being conjoined, then utilising a deterministic solving algorithm to estimate most the likely configuration.
+Worked in a team of 3 leveraging Deep CNN's and advanced combinatoric algorithms for the task. This subtask is identical to that of solving square jigsaws. Pipeline consisted of pre-processing raw scenic images into the puzzle structure, fine-tuning pretrained Deep CNN's to predict the likelihood of sub-peices being conjoined, then utilising a deterministic solving algorithm to estimate most the likely configuration.
 
 ![Image of configuration estimator architecture](images/Solver_Architecture.png)
 
