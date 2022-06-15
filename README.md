@@ -40,7 +40,7 @@ Skills Learned: pytorch, autograd, optimization, bagging, ensemble
 # Project 4: Sliding Puzzle Solver
 [Virtual Game Link](https://www.proprofsgames.com/puzzle/sliding/mona-lisaq/)
 
-There are 2 distinct stages to solving a sliding puzzle. First, the user must estimate the original configuration of the subpieces. Second, you must rearrange the subpieces into the original configuration while obeying the constraints of the game.
+There are 2 distinct stages to this puzzle. First, you must estimate the original configuration of the subpieces. Second, you must rearrange the subpieces into the original configuration while obeying the constraints of the game.
 
 ### Subtask 1: Original Configuration Estimation
 [Article Link](https://github.com/Ceudan/Sliding-Puzzle-Solver/blob/main/README.pdf)
