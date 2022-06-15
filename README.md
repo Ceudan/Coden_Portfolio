@@ -1,5 +1,6 @@
 &nbsp;
 # Project 1: Car Racing
+[Article Link](https://github.com/Ceudan/Car-Racing)
 I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning.
 
 https://user-images.githubusercontent.com/78922263/173864627-4309b90c-84f0-414c-9db1-d3487fed0a82.mp4
