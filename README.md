@@ -2,7 +2,7 @@
 # Project 1: Car Racing
 I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied double deep Q networks and Proximal Policy Iteration. The purpose of this project was to become familiar with the algorithms, RL libraries and hyperparameter tuning.
 
-
+![Video of DDQN driving car](images/DDQN_video.mp4) 
 
 I averaged 850/900 of the reward required to officially solve the environment. By modifing the action space, reward, and thus the learnable relationship, I was able to do this at a much smaller computational expense than other top implememntations. 
 
