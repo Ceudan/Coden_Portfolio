@@ -1,6 +1,6 @@
 &nbsp;
 # Project 1: Car Racing
-
+I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied double deep Q networks and Proximal Policy Iteration. The purpose of this project was to become familiar with the algorithms, RL libraries and hyperparameter tuning. 
 
 
 # Project 2: Alphanumeric CAPTCHA Solver
