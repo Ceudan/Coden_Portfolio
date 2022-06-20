@@ -1,5 +1,5 @@
 &nbsp;
-# Project 1: Car Racing
+# Car Racing
 <!---[Article Link](https://github.com/Ceudan/Car-Racing)-->
 
 I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning.
@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/78922263/173864627-4309b90c-84f0-414c-
 
 It averaged 850/900 of the reward required to officially solve the environment. By shaping the action space, reward, and thus the learnable relationship, I achieved this score at a much smaller computational expense than other top implememntations. 
 
-# Project 2: Alphanumeric CAPTCHA Solver
+# Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
 
 Led a team of 4 to independently design from scratch a multi-staged software that decodes alphanumeric CAPTCHA images. Motivation was a course final project. Input consists of 5 character CAPTCHAs disguised with noise and various levels of overlap, rotational, distance and colour distortions. Output is a 5 character prediction of the sequence.
@@ -28,7 +28,7 @@ Achieved mark of 90%. Achieved an accuracy of 71% per entire CAPTCHA image and 9
 \
 Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data
 
-# Project 3: Predicting Student Question Performance
+# Predicting Student Question Performance
 [Article Link](https://github.com/Ceudan/Predicting-Student-Question-Performance)
 
 Led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
@@ -46,7 +46,7 @@ Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligi
 \
 Skills Learned: pytorch, autograd, optimization, bagging, ensemble
 
-# Project 4: Sliding Puzzle Solver
+# Sliding Puzzle Solver
 [Virtual Game Link](https://www.proprofsgames.com/puzzle/sliding/mona-lisaq/)
 
 There are 2 distinct stages to this puzzle. First, you must estimate the original configuration of the subpieces. Second, you must find a way to rearrange the subpieces into the original configuration while obeying the constraints of the game.
@@ -66,7 +66,7 @@ One day I hope to have enough time to return and complete this section comparing
 
 
 
-# Project 5: Matching Road Sections between Databases
+# Matching Road Sections between Databases
 [Article Link](https://github.com/Ceudan/Match-Roads-Between-Databases)
 
 I independently created software to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
