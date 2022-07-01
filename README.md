@@ -2,11 +2,14 @@
 # Learning Reinforcement Learning via Car Racing
 [Article Link](https://github.com/Ceudan/Car-Racing)
 
-I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning.
+I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning. To prevent simply copying other's solutions, I gave myself a research question. That is, can I officially beat the environment at a lower computational cost than others?
+
+https://user-images.githubusercontent.com/78922263/176974347-b443a381-452a-4095-8e46-e312cede656e.mp4
 
 https://user-images.githubusercontent.com/78922263/173864627-4309b90c-84f0-414c-9db1-d3487fed0a82.mp4
 
-It averaged 850/900 of the reward required to officially solve the environment. By shaping the action space, reward, and thus the learnable relationship, I achieved this score at a much smaller computational expense than other top implememntations. 
+
+PPO was very succesfull, beating the environment with an average score of 903/900 over 100 test episodes. It also has the lowest training computational costs of all implementations on OpenAI's official leaderboard. I accomplished this mainly by seperating the steering and thrust actions to 2 independantly trained networks, and also with better data preprocessing (currently in the processing of submitting results). DQN did not officially beat the environement, but it also succesfully achieved this high score at a relatively low training cost.
 
 # Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
