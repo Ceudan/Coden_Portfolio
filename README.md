@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/78922263/176974347-b443a381-452a-4095-
 https://user-images.githubusercontent.com/78922263/173864627-4309b90c-84f0-414c-9db1-d3487fed0a82.mp4
 
 
-My PPO project was very succesfull, beating the environment at a lower computational training cost than all other implementations of OpenAI's leaderboard (903/900 reward averaged over 100 test episodes, after 7?? training episodes). It also has the lowest training computational costs of all implementations on OpenAI's official leaderboard. I accomplished this mainly by seperating the steering and thrust actions to 2 independantly trained networks, and also with better data preprocessing (currently in the processing of submitting results). DQN did not officially beat the environement, but it also succesfully achieved this high score at a relatively low training cost.
+My PPO project was very succesfull, beating the environment at a lower computational training cost than all other implementations of OpenAI's official leaderboard (903/900 reward averaged over 100 test episodes, after 7?? training episodes). I accomplished this mainly by seperating the steering and thrust actions to 2 independantly trained networks, and also with better data preprocessing (currently in the processing of submitting results). DQN did not officially beat the environement, but it also succesfully achieved this high score at a relatively low training cost.
 
 # Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
