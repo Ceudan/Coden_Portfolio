@@ -4,9 +4,7 @@
 
 I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning. To prevent simply copying other's solutions, I gave myself a research question. That is, can I officially beat the environment at a lower computational cost than others?
 
-https://user-images.githubusercontent.com/78922263/176974347-b443a381-452a-4095-8e46-e312cede656e.mp4  
 
-https://user-images.githubusercontent.com/78922263/177021607-4105a1d4-d8e2-4fa5-968f-2d06ec951619.mp4
 
 My PPO project was very succesfull, beating the environment at a lower computational training cost than all other implementations on OpenAI's official leaderboard (903/900 reward averaged over 100 test episodes, after 7?? training episodes). I used a novel method never seen before for the environment, that is I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship (currently in the processing of submitting results). DDQN did not officially beat the environement, but it also succesfully achieved a relatively high score at low training costs (850/900 after 360 training episodes).
 
