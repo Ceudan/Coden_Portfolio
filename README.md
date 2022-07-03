@@ -6,9 +6,7 @@ I hand coded multiple reinforcement learning algorithms for the openai Car Racin
 
 https://user-images.githubusercontent.com/78922263/177021714-fc82a6ff-e44c-4936-bf50-61a8f3a372f1.mp4
 
-https://user-images.githubusercontent.com/78922263/177021718-0a34b8f2-9377-4afd-ae8c-3ee3d7ced910.mp4
-
-My PPO project was very succesfull, beating the environment at a lower computational training cost than all other implementations on OpenAI's official leaderboard (903/900 reward averaged over 100 test episodes, after 7?? training episodes). I used a novel method never seen before for the environment, that is I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship (currently in the processing of submitting results). DDQN did not officially beat the environement, but it also succesfully achieved a relatively high score at low training costs (850/900 after 360 training episodes).
+My PPO project was very succesfull, obtaining the highest test score and beating the environment at the 2nd lowest training cost than all other implementations on OpenAI's official leaderboard (917/900 reward averaged over 100 test episodes, after 925 training episodes). I used a novel never seen before method for the environment, that is I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship. DDQN did not officially beat the environement, but it also succesfully achieved a relatively high score at low training costs (850/900 after 360 training episodes).
 
 # Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
