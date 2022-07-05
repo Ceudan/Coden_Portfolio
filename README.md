@@ -2,11 +2,11 @@
 # Learning Reinforcement Learning via Car Racing
 [Article Link](https://github.com/Ceudan/Car-Racing)
 
-I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning. To prevent simply copying other's solutions, I gave myself a research question. That is, can I officially beat the environment at a lower computational cost than others?
+I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning. While exploring, I gave myself a research question. That is, can I officially beat the environment at a lower computational cost than others?
 
 https://user-images.githubusercontent.com/78922263/177021714-fc82a6ff-e44c-4936-bf50-61a8f3a372f1.mp4
 
-My PPO project was very succesful, obtaining the highest test score and beating the environment at the 2nd lowest training cost compared to all other implementations on OpenAI's official leaderboard [[1]](https://github.com/openai/gym/wiki/Leaderboard). (917/900 score averaged over 100 test episodes, after 925 training episodes). I used a unique method for the environment, that is I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship. DDQN did not officially beat the environement, but it also succesfully achieved a relatively high score at low training costs (850/900 after 360 training episodes).
+My PPO project was very succesful, obtaining the highest test score and beating the environment at the 2nd lowest training cost on OpenAI's official Car Racing leaderboard [[1]](https://github.com/openai/gym/wiki/Leaderboard). (917/900 score averaged over 100 test episodes, after 925 training episodes). I used a unique method for the environment, that is I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship. DDQN did not officially beat the environement, but it also succesfully achieved a relatively high score at low training costs (850/900 after 360 training episodes).
 
 # Alphanumeric CAPTCHA Solver
 [Article Link](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
