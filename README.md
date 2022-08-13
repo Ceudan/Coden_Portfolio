@@ -1,16 +1,21 @@
 &nbsp;
 # Learning Reinforcement Learning via Car Racing
 
-### 2022.6
+### 2022.6 
 
 I hand coded multiple reinforcement learning algorithms for the openai Car Racing environment. Namely I applied Double Deep Q networks and Proximal Policy Optimization. The purpose of this project was to become familiar with RL libraries, algorithms and hyperparameter tuning. While exploring, I gave myself a research question. That is, can I officially beat the environment at a lower computational cost than others?
 
 https://user-images.githubusercontent.com/78922263/177021714-fc82a6ff-e44c-4936-bf50-61a8f3a372f1.mp4
 
-My PPO project was very succesful, obtaining the highest test score and beating the environment at the 2nd lowest training cost on OpenAI's official Car Racing leaderboard [[1]](https://github.com/openai/gym/wiki/Leaderboard). (917/900 score averaged over 100 test episodes, after 925 training episodes). I used a unique method for the environment. Mainly, I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship. Additionally, I moved speed estimation to a seperate deterministic process to reduce the computer vision load on our actor/critic models. [Learn More](https://github.com/Ceudan/Car-Racing)
+My PPO project was very succesful, obtaining the highest test score and beating the environment at the 2nd lowest training cost on OpenAI's official Car Racing leaderboard [[1]](https://github.com/openai/gym/wiki/Leaderboard). (917/900 score averaged over 100 test episodes, after 925 training episodes). I used a unique method for the environment. Mainly, I seperated the steering and thrust actions to 2 independantly trained networks to simplify the learnable relationship. Additionally, I moved speed estimation to a seperate deterministic process to reduce the computer vision load on our actor/critic models. 
 
+[Learn More](https://github.com/Ceudan/Car-Racing)
+
+&nbsp;
 
 # Alphanumeric CAPTCHA Solver
+
+### 2021.3 
 
 Led a team of 4 to independently design from scratch a multi-staged software that decodes alphanumeric CAPTCHA images. Motivation was a course final project. Input consists of 5 character CAPTCHAs disguised with noise and various levels of overlap, rotational, distance and colour distortions. Output is a 5 character prediction of the sequence.
 
@@ -28,10 +33,13 @@ Achieved mark of 90%. Achieved an accuracy of 71% per entire CAPTCHA image and 9
 
 [Learn More](https://github.com/Ceudan/Alphanumeric-CAPTCHA-Solver)
 
+&nbsp;
 
 <!-- Skills Learned: computer vision libraries, image processing, deep-learning, generating custom train data -->
 
 # Predicting Student Question Performance
+
+### 2021.11 
 
 Led a team of 3 to write an ensemble machine learning model with bagging to predict a student's performance on diagnostic questions. Our ensemble combined 3 distinct algorithms. Motivation was a course project.
 
@@ -47,6 +55,7 @@ Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligi
 
 [Learn More](https://github.com/Ceudan/Predicting-Student-Question-Performance)
 
+&nbsp;
 
 <!-- Skills Learned: pytorch, autograd, optimization, bagging, ensemble -->
 
@@ -56,6 +65,8 @@ Achieved mark of 97%. We ranked 18th in a coursewide competition (over 300 eligi
 There are 2 distinct stages to this puzzle. First, you must estimate the original configuration of the subpieces. Second, you must find a way to rearrange the subpieces into the original configuration while obeying the constraints of the game.
 
 ### Subtask 1: Original Configuration Estimation
+
+### 2022.3 
 
 Worked in a team of 3 leveraging Deep CNN's and advanced combinatoric algorithms for the task. This subtask is identical to that of solving square jigsaws. Pipeline consisted of pre-processing raw scenic images into the puzzle structure, fine-tuning pretrained Deep CNN's to predict the likelihood of sub-peices being conjoined, then utilising a deterministic solving algorithm to estimate most the likely configuration.
 
@@ -68,10 +79,11 @@ All Deep CNN's achieved an adjacency prediction accuracy of over 90%. Importantl
 ### Subtask 2: Tile Rearrangement
 One day I hope to have enough time to return and complete this section comparing various reinforcement learning techniques.
 
-
-
+&nbsp;
 
 # Matching Road Sections between Databases
+
+### 2021.8
 
 I independently created software to match sections across databases using geospatial information. This was one of the many tasks I recieved at the University of Toronto Transportation Research Institute. Hurdles included:
 - over 100,000 road sections per database (strong time complexity requirements)
